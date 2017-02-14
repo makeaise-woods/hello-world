@@ -1,0 +1,8 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        double price= Double.parseDouble(args[0]);
+        double itemTax= price*0.07;
+        double finalPrice= price+itemTax;
+                System.out.println("finalPrice");
+     }
